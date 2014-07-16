@@ -1,0 +1,100 @@
+body {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*div {
+	border: 1px dashed #000000;
+}
+*/
+.homebox {
+	width: 100%;
+	height: 705px;
+}
+
+#firstbox{
+	background-image: url('../images/topbg.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#secondbox{
+	background-color: #9dd6b4;
+}
+
+
+#fourthbox{
+	-moz-box-shadow:    inset 0 0 40px #000000;
+	-webkit-box-shadow: inset 0 0 40px #000000;
+	box-shadow:         inset 0 0 40px #000000;
+	background-color: #3f3f3f;
+	height: 360px;
+	padding: 20px;
+}
+
+#fourthbox div{
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+.fourtboxdiv{
+	width: 380px;
+	height: 350px;
+	display: inline-block;
+}
+.fourthlines{
+	width: 380px;
+	height: 50px;
+}
+
+#fourthsendline{
+	width: 380px;
+	height: 190px;
+}
+
+.photo{
+	margin: 5px 25px;
+	width: 330px;
+	height: 340px;
+	background-image: url('../images/selfpic.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+#fdivcontact{
+	background-image: url('../images/connect.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#fdivinfo{
+	background-image: url('../images/info.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+.footer{
+	width: 100%;
+	min-height: 20px;
+	background-color: #9dd6b4;
+	padding: 15px;
+}
+#leftfooter{
+	width: 480px;
+	height: 25px;
+	float: left;
+	margin-left: 40px;
+}
+#footertext{
+	font-size: 12px;
+}
+#rightfooter{
+	width: 320px;
+	height: 25px;
+	float: right;
+	margin-right: 100px;
+}
+

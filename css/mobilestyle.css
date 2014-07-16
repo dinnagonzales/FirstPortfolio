@@ -1,0 +1,15 @@
+@media screen and (max-width:400px){
+	.footer{
+		width: 400px;
+		height: 50px;
+		text-align: center;
+	}
+	#leftfooter{
+		margin: 0;
+		float: none;
+	}
+	#rightfooter{
+		margin: 0;
+		float: none;
+	}
+}

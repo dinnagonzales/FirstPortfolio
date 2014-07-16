@@ -1,0 +1,108 @@
+.email{
+  border: 1px solid #FFFFFF;
+  width: 230px;
+  height: 50px;
+  display: block;
+  margin: 40px 10px 10px 10px;
+  text-align: left;
+}
+
+.email a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 17px;
+  position: relative;
+  top: 14px;
+  left: 8px;
+}
+
+#envelope{
+  margin: 10px 1px 10px 1px;
+  width: 45px;
+  height: 30px;
+  margin-right: 10px;
+  float: right;
+}
+.contactmelink{ 
+  width: 30px;
+  height: 32px;
+  margin: 12px 0px 0px 15px;
+}
+.contactme2link{
+  width: 30px;
+  height: 32px;
+  margin: 12px 0px 0px 65px;
+}
+
+#githublink{
+  background: url('../images/github.png');
+  background-position: 0px 32px;
+  background-size: cover;
+  -o-transition:color 0.05s ease-out, background 0.05s ease-in;
+  -ms-transition:color 0.05s ease-out, background 0.05s ease-in;
+  -moz-transition:color 0.05s ease-out, background 0.05s ease-in;
+  -webkit-transition:color 0.05s ease-out, background 0.05s ease-in;
+  transition:color 0.05s ease-out, background 0.05s ease-in;
+ }
+
+#githublink:hover {
+  background: url('../images/github.png');
+  background-size: cover;
+}
+
+
+#linkedlink{
+  background: url('../images/linked.png');
+  background-position: 0px 33px;
+  background-size: cover;
+  -o-transition:background 2s ease-out, background 0.25s ease-in;
+  -ms-transition:background 2s ease-out, background 0.25s ease-in;
+  -moz-transition:background 2s ease-out, background 0.25s ease-in;
+  -webkit-transition:background 2s ease-out, background 0.25s ease-in;
+  transition:background 2s ease-out, background 0.25s ease-in;
+}
+
+#linkedlink:hover {
+  background: url('../images/linked.png');
+  background-size: cover;
+}
+
+@-webkit-keyframes hang {
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hang {
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+
+  100% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+.hang {
+  -webkit-transform: translateY(6px);
+  transform: translateY(6px);
+  -webkit-animation-name: hang;
+  animation-name: hang;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
