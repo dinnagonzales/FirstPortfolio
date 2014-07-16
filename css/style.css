@@ -40,7 +40,7 @@ body {
 	display: inline-block;
 	float: left;
 	margin-right: 20px;
-	border: 1px solid black;	
+	/*border: 1px solid black;	*/
 }
 .fourtboxdiv{
 	height: 350px;
@@ -81,6 +81,7 @@ body {
 	background-size: cover;
 	position: relative;
 	bottom: -30px;
+	text-align: center;
 
 
 }
@@ -91,14 +92,14 @@ body {
 .divinfo{
 	width: 290px;
 	height: 50px;
-	border: 1px solid #FFFFFF;
+/*	border: 1px solid #FFFFFF;*/
 }
 
 #linkedint{
-	margin-top: 140px;
+	margin-top: 150px;
 }
 #githubt{
-	margin-top: 18px;
+	margin-top: 28px;
 }
 #blogt{
 	margin-top: 20px;

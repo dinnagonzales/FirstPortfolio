@@ -1,7 +1,6 @@
 .email{
-  border: 1px solid #FFFFFF;
   width: 450px;
-  height: 50px;
+  height: 120px;
   display: block;
   margin-top: 210px;
   text-align: left;
@@ -9,7 +8,7 @@
 
 .email a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: #99caaa;
   font-size: 17px;
   position: relative;
   top: 14px;
@@ -17,11 +16,11 @@
 }
 
 #envelope{
-  margin: 10px 1px 10px 1px;
-  width: 45px;
-  height: 30px;
-  margin-right: 10px;
-  float: right;
+  
+  width: 70px;
+  height: 50px;
+  margin-left: 10px;
+  float: left;
 }
 .contactmelink{ 
   width: 30px;
