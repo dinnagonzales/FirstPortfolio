@@ -54,11 +54,11 @@
   background: url('../images/linked.png');
   background-position: 0px 33px;
   background-size: cover;
-  -o-transition:background 2s ease-out, background 0.25s ease-in;
-  -ms-transition:background 2s ease-out, background 0.25s ease-in;
-  -moz-transition:background 2s ease-out, background 0.25s ease-in;
-  -webkit-transition:background 2s ease-out, background 0.25s ease-in;
-  transition:background 2s ease-out, background 0.25s ease-in;
+  -o-transition:color 0.05s ease-out, background 0.05s ease-in;
+  -ms-transition:color 0.05s ease-out, background 0.05s ease-in;
+  -moz-transition:color 0.05s ease-out, background 0.05s ease-in;
+  -webkit-transition:color 0.05s ease-out, background 0.05s ease-in;
+  transition:color 0.05s ease-out, background 0.05s ease-in;
 }
 
 #linkedlink:hover {
