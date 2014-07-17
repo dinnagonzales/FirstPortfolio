@@ -1,7 +1,7 @@
 body {
 	width: 100%;
-	margin: 0 auto 0 auto;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -19,7 +19,72 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	padding-top: 70px;
 }
+
+.navbar{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(255,255,255, 0.3);
+}
+
+.doodle{
+	display: inline-block;
+	margin: 80px 20px 0px 100px;
+	
+	width: 444px;
+	height: 395px;
+	background-image: url('../images/doodle.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.name {
+	position: relative;
+	display: inline-block;
+	
+	width: 600px;
+	height: 395px;	
+}
+
+.name div{
+	display: inline-block;
+	
+	float: right;
+
+}
+
+
+.hello{
+	width: 600px;
+	height: 100px;
+	background-image: url('../images/hello.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+.myname{
+	width: 600px;
+	height: 245px;	
+	background-image: url('../images/nametop.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+.firstlinks{
+	width: 500px;
+	height: 40px;
+	margin-top: -70px;
+	margin-right: 20px;
+}
+
+
+
 #secondbox{
 	background-color: #9dd6b4;
 }
