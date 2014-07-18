@@ -5,8 +5,18 @@
 	<link rel="stylesheet" type"css" href="css/mobilestyle.css">
 	<link rel="stylesheet" type"css" href="css/online.css">
 
-	<script src="javascript/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="javascript/script.js"></script>
+	<script src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var $a = $('a#fourthbox'), $targets = $('div.targets');
+			$a.on('click', function(e) {
+				e.preventDefault(); 
+				var i = $a.index(this);
+				var offset = $targets.eq(++i).offset().top;
+				$('html, body').stop().animate({ scrollTop: offset }, 400);
+			});
+		});
+	</script>
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<title>dinnagonzales.com</title>
 
@@ -39,7 +49,32 @@
 		</div>
 	</div>
 	<div class="homebox" id="secondbox">
-		
+		<div class="aboutme"></div>
+		<div class="skills">
+			<span class="skillset" id="design">
+				<br/><br/><br/>
+				PHOTOSHOP<br/>
+				PHOTOGRPAHY<br/>
+			</span>
+			<span class="skillset" id="frontend">
+				<br/><br/>
+				HTML<br/>
+				CSS3 & SCSS<br/>
+				Bootstrap<br/>
+				Foundation<br/>
+				Javascript<br/>
+				AngularJS<br/>
+				
+			</span>
+			<span class="skillset" id="backend">
+				<br/><br/><br/>
+				Ruby on Rails<br/>
+				MongoDB<br/>
+				PostgreSQL<br/>
+
+			</span>
+			
+		</div>
 	</div>
 	<div class="homebox" id="thirdbox">
 		
@@ -64,13 +99,16 @@
 		<div class="fourtboxdiv" id="fdivinfo">
 
 		<div class="divinfo" id="linkedint">
-			LINKED IN
+			<span id="findme">FIND ME ON THE WEB:</span>
 		</div>
 		<div class="divinfo" id="githubt">
-			GITHUB
+			<a class="turneffect" href="#"><span data-title="LINKEDIN">LINKEDIN</span></a>
+			<image src="images/linked2.png" class="bottomlink">
+			
 		</div>
 		<div class="divinfo"id="blogt">
-			BLOG
+			<a class="turneffect" href="#"><span data-title="GITHUB">GITHUB</span></a>
+			<image src="images/github2.png" class="bottomlink" id="bottomgit">
 		</div>
 
 
@@ -97,7 +135,7 @@
 
 		</div>
 		<div class="fourtboxdiv" id="fdivpicture">
-			<div class="photo"></div>
+			<div class="photo hang"></div>
 		</div>
 
 	</div>
@@ -121,6 +159,6 @@
 
 
 </div>
-
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 </body>
 </html>
