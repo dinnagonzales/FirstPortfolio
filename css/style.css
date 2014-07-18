@@ -4,22 +4,39 @@ body {
 	padding: 0px;
 	font-family: 'Raleway', sans-serif;
 }
-
-/*div {
+/*
+div {
 	border: 1px dashed #000000;
-}
-*/
+}*/
+
 .homebox {
+	min-width: 1280px;
 	width: 100%;
 	height: 705px;
 }
-
+.downdown{
+	border: 1px solid black;
+	position: relative;
+	left: 700px;
+	top: 550px;
+	width: 35px;
+	height: 35px;
+	background-image: url('../images/down.gif');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 #firstbox{
 	background-image: url('../images/topbg.png');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-top: 70px;
+	padding-top: 0px;
 }
 
 .navbar{
