@@ -33,15 +33,15 @@
   margin: 12px 0px 0px 65px;
 }
 
-#link{
+#githublink{
   background: url('../images/github.png');
   background-position: 0px 32px;
   background-size: cover;
-  -o-transition:color 0.05s ease-out, background 0.05s ease-in;
-  -ms-transition:color 0.05s ease-out, background 0.05s ease-in;
-  -moz-transition:color 0.05s ease-out, background 0.05s ease-in;
-  -webkit-transition:color 0.05s ease-out, background 0.05s ease-in;
-  transition:color 0.05s ease-out, background 0.05s ease-in;
+  -o-transition:color 0.09s ease-out, background 0.09s ease-in;
+  -ms-transition:color 0.09s ease-out, background 0.09s ease-in;
+  -moz-transition:color 0.09s ease-out, background 0.09s ease-in;
+  -webkit-transition:color 0.09s ease-out, background 0.09s ease-in;
+  transition:color 0.09s ease-out, background 0.09s ease-in;
  }
 
 #githublink:hover {
@@ -54,11 +54,11 @@
   background: url('../images/linked.png');
   background-position: 0px 33px;
   background-size: cover;
-  -o-transition:color 0.05s ease-out, background 0.05s ease-in;
-  -ms-transition:color 0.05s ease-out, background 0.05s ease-in;
-  -moz-transition:color 0.05s ease-out, background 0.05s ease-in;
-  -webkit-transition:color 0.05s ease-out, background 0.05s ease-in;
-  transition:color 0.05s ease-out, background 0.05s ease-in;
+  -o-transition:color 0.09s ease-out, background 0.09s ease-in;
+  -ms-transition:color 0.09s ease-out, background 0.09s ease-in;
+  -moz-transition:color 0.09s ease-out, background 0.09s ease-in;
+  -webkit-transition:color 0.09s ease-out, background 0.09s ease-in;
+  transition:color 0.09s ease-out, background 0.09s ease-in;
 }
 
 #linkedlink:hover {
