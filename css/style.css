@@ -5,8 +5,9 @@ top: 0px;
 width: 100%;
 height: 100%;
 z-index: 9999;
-background: url(your/image/path/loading.png) 50% 50% no-repeat #ede9df;
+background: url(../images/728.gif) 50% 50% no-repeat #FFFFFF;
 }
+
 body {
 	width: 100%;
 	margin: 0px;
