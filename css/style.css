@@ -14,7 +14,7 @@ body {
 	padding: 0px;
 	font-family: 
 	'Raleway', sans-serif;
-	background-color: #9e9e9e;
+	background-color: #FFFFFF;
 }
 /*
 div {
@@ -221,7 +221,45 @@ div {
 	border: 1px solid #FFFFFF;
 	background-color: #9e9e9e;
 }
+.projectlinks{
+	float: right;
+	width: 120px;
+	height: 30px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
 
+#githubbutton{
+	height: 20px;
+	padding-top: 2px;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	top: 280px;
+	right: 60px;
+}
+#githubbutton:hover{
+	background: #FFFFFF;
+	color: #000000;
+
+}
+#sitebutton{
+	height: 20px;
+	padding-top: 2px;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	text-align: center;
+	position: relative;
+	top: 320px;
+	right: -62px;
+}
+#sitebutton:hover{
+	background: #FFFFFF;
+	color: #000000;
+
+}
 #proj1{
 	background-image: url('../images/proj1.png');
 	background-repeat: no-repeat;
@@ -368,6 +406,7 @@ div {
 	min-height: 20px;
 	background-color: #9dd6b4;
 	padding: 15px;
+
 }
 #leftfooter{
 	width: 480px;
@@ -378,10 +417,11 @@ div {
 #footertext{
 	font-size: 12px;
 }
+
 #rightfooter{
 	width: 500px;
 	height: 25px;
 	float: right;
-	margin-right: -300px;
+	margin-right: 10px;	
 }
 
