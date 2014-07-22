@@ -432,12 +432,13 @@ body {
 }
 #footertext{
 	font-size: 12px;
+
 }
 
 #rightfooter{
 	width: 500px;
 	height: 25px;
 	float: right;
-	margin-right: 10px;	
+	margin-right: 90px;	
 }
 
