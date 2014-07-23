@@ -1,4 +1,13 @@
+@media screen and (max-width:900px){
+	.navbar{
+	min-width: 900px;
+	}
+}
 @media screen and (max-width:400px){
+	.navbar{
+	min-width: 400px;
+	}
+
 	.footer{
 		width: 400px;
 		height: 50px;
