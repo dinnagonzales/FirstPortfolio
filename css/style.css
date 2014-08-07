@@ -425,7 +425,7 @@ body {
 .footer{
 	min-width: 1280px;
 	width: 100%;
-	min-height: 30px;
+	min-height: 40px;
 	background-color: #9dd6b4;
 
 	
@@ -435,8 +435,8 @@ body {
 	width: 480px;
 	height: 25px;
 	float: left;
-	margin-top: 5px;
-	margin-left: 30px;
+	margin: 8px 0px 0px 30px;
+	
 }
 #footertext{
 	font-size: 12px;
@@ -444,11 +444,11 @@ body {
 }
 
 #rightfooter{
-	margin-top: 5px;
+	margin: 8px 20px 0px 5px;
 	width: 500px;
 	height: 25px;
 	float: right;
-	margin-right: 30px;
+	
 	
 }
 
