@@ -45,9 +45,7 @@
 	height: 450px;
 	}
 	#firstdown{
-	position: relative;
-	left: 100px;
-	top: 375px;
+	display: none; 
 	}
 
 	.hello{
@@ -75,6 +73,16 @@
 	margin-top: -30px;
 	margin-right: 20px;
 	}
+
+
+	.aboutme{
+	width: 328px;
+	height: 536px;
+	margin: -105px 0px 0px 0px;
+	}
+
+
+
 
 
 
