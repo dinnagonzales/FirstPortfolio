@@ -1,8 +1,9 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
    #homelogo{
 	margin-left: 10px;
 	}
 	.navbar{
+	margin-top: 25px;
 	min-width: 400px;
 	}
 
@@ -15,7 +16,7 @@
 
 	.doodle{
 	display: inline-block;
-	margin: 50px 80px 0px 80px;
+	margin: 100px 80px 0px 80px;
 	width: 249px;
 	height: 222px;
 	}
@@ -42,7 +43,7 @@
 
 	#firstbox{
 	max-width: 400px;
-	height: 450px;
+	height: 500px;
 	}
 	#firstdown{
 	display: none; 
@@ -76,9 +77,12 @@
 
 
 	.aboutme{
-	width: 328px;
-	height: 536px;
-	margin: -105px 0px 0px 0px;
+	width: 302px;
+	height: 480px;
+	position: relative;
+	top: -80px;
+	left: 20px;
+	
 	}
 
 
