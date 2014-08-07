@@ -1,24 +1,94 @@
-@media screen and (max-width:900px){
-	.navbar{
-	min-width: 900px;
-	}
-}
 @media screen and (max-width:400px){
+   #homelogo{
+	margin-left: 10px;
+	}
 	.navbar{
 	min-width: 400px;
 	}
 
+	.navlinks li{
+	float: left;
+	margin: 0px 10px 0px 30px;
+	font-size: 13px;
+	font-weight: 10px;
+	}
+
+	.doodle{
+	display: inline-block;
+	margin: 50px 80px 0px 80px;
+	width: 249px;
+	height: 222px;
+	}
+
+
+	.name {
+	width: 292px;
+	height: 192px;	
+	position: relative;
+	top: 120px;
+	left: -350px;
+	}
+
+
+
+	.homebox {
+	margin: 0 auto;
+	max-width: 400px;
+	height: 705px;
+	margin: 0px;
+	padding: 0px;
+	}
+
+
+	#firstbox{
+	max-width: 400px;
+	height: 450px;
+	}
+	#firstdown{
+	position: relative;
+	left: 100px;
+	top: 375px;
+	}
+
+	.hello{
+	width: 300px;
+	height: 50px;
+	background-image: url('../images/hello.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+	}
+
+	.myname{
+	width: 300px;
+	height: 123px;	
+	background-image: url('../images/nametop.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+	}
+	.firstlinks{
+	width: 250px;
+	height: 20px;
+	margin-top: -30px;
+	margin-right: 20px;
+	}
+
+
+
 	.footer{
 		width: 400px;
-		height: 50px;
+		height: 10px;
 		text-align: center;
 	}
 	#leftfooter{
 		margin: 0;
+		padding: 5px;
 		float: none;
 	}
 	#rightfooter{
-		margin: 0;
-		float: none;
+		display: none;
 	}
 }
