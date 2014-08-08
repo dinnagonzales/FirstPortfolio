@@ -185,10 +185,12 @@ body {
 	padding-top: 120px;
 	padding-left: 80px;
 }
+
 .skills span{
 	display: inline-block;
 	float: left;
 }
+
 .skillset{
 	margin-top: 50px;
 	width: 240px;
