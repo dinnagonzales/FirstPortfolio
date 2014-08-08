@@ -1,9 +1,17 @@
 @media screen and (max-device-width: 500px), screen and (max-width:500px){
+   body{
+   		width: 400px;
+		max-width: 400px;
+		min-width: 400px;
+		
+   }
    #homelogo{
 	margin-left: -19px;
 	}
 	.navbar{
 	margin-top: 25px;
+	width: 400px;
+	max-width: 400px;
 	min-width: 400px;
 	}
 
@@ -176,26 +184,36 @@
 	right: -108px;
 	}
 
-	.projectcontainer br{
-		display: none;
+	
+	#thirdbox{
+		width: 400px;
+		max-width: 400px;
+		min-width: 400px;
+		height: 2550px;
 	}
-
 	#fourthbox{
 		width: 400px;
 		max-width: 400px;
 		min-width: 400px;
+		height: 950px;
 	}
 
 	#fdivinfo{
-		display: none;
+		margin-left: 20%;
+		margin-top: -100px;
 	}
-	#blogt{
-		display: none;
+
+	#fdivpicture{
+		margin-left: -20px;
+		
 	}
 
 
 	.footer{
 		width: 400px;
+		max-width: 400px;
+		min-width: 400px;
+		
 		height: 10px;
 		text-align: center;
 	}
@@ -207,4 +225,9 @@
 	#rightfooter{
 		display: none;
 	}
+
+	.projectcontainer div{
+		display: block;
+	}
+
 }
