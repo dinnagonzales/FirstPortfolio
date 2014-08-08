@@ -6,7 +6,7 @@
 	}
    html, body{
    		overflow-x: hidden;
-   		width: 100% !important;
+   		width: 400px !important;
 		max-width: 400px;
 		min-width: 400px;
 		margin-right: 0px;
