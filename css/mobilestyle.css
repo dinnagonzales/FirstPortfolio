@@ -223,6 +223,8 @@
 	#fdivinfo{
 		margin-left: 20%;
 		margin-top: -100px;
+		position: relative;
+		top: 350px;
 	}
 
 	#fdivpicture{
@@ -272,4 +274,7 @@
   		float: left;
 	}
 
+	#fdivpicture{
+		position: relative;
+		top: -300px;
 }
