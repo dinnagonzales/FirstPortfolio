@@ -180,6 +180,20 @@
 		display: none;
 	}
 
+	#fourthbox{
+		width: 400px;
+		max-width: 400px;
+		min-width: 400px;
+	}
+
+	#fdivinfo{
+		display: none;
+	}
+	#blogt{
+		display: none;
+	}
+
+
 	.footer{
 		width: 400px;
 		height: 10px;
