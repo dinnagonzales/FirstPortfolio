@@ -216,7 +216,9 @@ body {
 	background-color: #FFFFFF;
 	height: 1600px;
 }
-
+#thirdboxtitleb{
+	display: none;
+}
 #thirdboxtitle{
 	margin: -20px auto 0 auto;
 	
