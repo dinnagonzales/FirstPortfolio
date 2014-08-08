@@ -3,8 +3,8 @@
    		width: 400px;
 		max-width: 400px;
 		min-width: 400px;
-		
    }
+
    #homelogo{
 	margin-left: -19px;
 	}
@@ -39,7 +39,7 @@
 	}
 	
 	.emaillink{
-		font-size: 100px;
+		font-size: 50px;
 	}
 
 	#fdivcontact{
@@ -114,6 +114,8 @@
 
 	.skills{
 	width: 400px;
+	max-width: 400px;
+	min-width: 400px;	
 	height: 550px;
 	padding: 0px;
 	margin: 0px;
@@ -229,5 +231,15 @@
 	.projectcontainer div{
 		display: block;
 	}
+	.projectbox{
+		margin-left: 10px;
+	}
+
+	#envelope{
+  		width: 30px;
+  		height: 20px;
+  		
+  		float: left;
+}
 
 }
