@@ -9,8 +9,8 @@
    		width: 400px !important;
 		max-width: 400px;
 		min-width: 400px;
-		margin-right: 0px;
-		padding-left: 0px;
+		margin-right: 0px !important;
+		padding-left: 0px !important;
    }
 
    .homebody{
