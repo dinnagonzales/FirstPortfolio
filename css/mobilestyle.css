@@ -1,6 +1,6 @@
-@media screen and (max-width: 480px){
+@media screen and (max-device-width:400px) and (min-device-width:320px){
    #homelogo{
-	margin-left: 10px;
+	margin-left: -19px;
 	}
 	.navbar{
 	margin-top: 25px;
@@ -9,8 +9,8 @@
 
 	.navlinks li{
 	float: left;
-	margin: 0px 10px 0px 30px;
-	font-size: 13px;
+	margin: 0px 7px 0px 30px;
+	font-size: 10px;
 	font-weight: 10px;
 	}
 
