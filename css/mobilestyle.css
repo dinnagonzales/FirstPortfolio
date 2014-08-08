@@ -1,4 +1,4 @@
-@media screen and (max-width:500px){
+@media screen and (max-width: 480px){
    #homelogo{
 	margin-left: 10px;
 	}
@@ -29,8 +29,17 @@
 	top: -80px;
 	left: 50px;
 	}
+	
+	.emaillink{
+		font-size: 100px;
+	}
 
-
+	#fdivcontact{
+	margin-left: 20px;
+	width: 390px;
+	background-position: center center;
+	background-image: contain;
+	}
 
 	.homebox {
 	margin: 0 auto;
@@ -148,6 +157,27 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 
+	}
+
+
+	.projectbox{
+		width: 380px;
+		height: 304px;
+		border: 1px solid #FFFFFF;
+		background-color: #9e9e9e;
+	}
+	
+	#githubbutton{
+	top: 200px;
+	right: 10px;
+	}
+	#sitebutton{
+	top: 235px;
+	right: -108px;
+	}
+
+	.projectcontainer br{
+		display: none;
 	}
 
 	.footer{
